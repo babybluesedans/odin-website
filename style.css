@@ -30,6 +30,10 @@ p {
     font-weight: 900;
 }
 
+.blue {
+    background-color: #3882F6;
+}
+
 .body {
     min-height: 100vh;
     margin: 0;
@@ -86,7 +90,6 @@ p {
 }
 
 .sign-up-button {
-    background-color: #3882F6;
     font-weight: 700;
     border-style: none;
     border-radius: 8px;
@@ -100,6 +103,42 @@ p {
     background-color: rgb(134, 134, 150);
     padding: 100px 120px;
     margin-right: 300px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.images {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.placeholder {
+    width: 160px;
+    height: 160px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.square {
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
 }
 
 
